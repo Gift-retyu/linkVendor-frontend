@@ -5,15 +5,21 @@ import { Container } from './Container'
 export const CTA = () => (
   <Container
     flexDirection="row"
-    position="fixed"
-    bottom="0"
+   // position="fixed"
+    top="0"
     width="100%"
     maxWidth="48rem"
     py={2}
   >
-    <ChakraLink isExternal href="https://chakra-ui.com" flexGrow={1} mx={2}>
-      <Button width="100%" bgGradient="linear(to-tr, teal.300,yellow.400)">
-        chakra-ui
+    <ChakraLink flexGrow={1} mx={2}>
+      <Button width="100%" >
+        OUR RETAILERS
+      </Button>
+    </ChakraLink>
+
+    <ChakraLink flexGrow={1} mx={2}>
+      <Button width="100%" >
+        ORDER ONLINE
       </Button>
     </ChakraLink>
 
@@ -23,8 +29,14 @@ export const CTA = () => (
       flexGrow={3}
       mx={2}
     >
-      <Button width="100%" bgGradient="linear(to-tr, teal.300,yellow.400)">
-        View Repo
+      <Button width="100%" >
+        OPEN A STORE
+      </Button>
+    </ChakraLink>
+
+    <ChakraLink flexGrow={1} mx={2}>
+      <Button width="100%" >
+        REGISTER/LOGIN
       </Button>
     </ChakraLink>
   </Container>
