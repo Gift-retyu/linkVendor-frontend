@@ -3,6 +3,6 @@
 
 # Technologies Used
 
-Next Js
-Chankra UI
-Graphql
+-NextJs
+-ChankraUI
+-Graphql
